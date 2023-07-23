@@ -15,12 +15,29 @@
 //// hide some components
 
 import './App.css';
+import Button from './components/Common';
+import Headers from './components/Headers';
 
 function App() {
   return (
     <div className="App">
-      <button className="button">Button</button>
-      <button className="button">Button</button>
+      {/* <div>
+        <Headers>
+
+        </Headers>
+      </div> */}
+      <div className = "Container">
+        <Button title = 'Apps'></Button>
+        <Button title = 'Dashboard'></Button>
+      </div>
+      {/*즐겨찾기*/}
+      <div className = "Container">
+        <p>Favorites</p>
+      </div>
+      {/*최근 사용*/}
+      <div className = "Container">
+        <p>Recents</p>
+      </div>
     </div>
   );
 }

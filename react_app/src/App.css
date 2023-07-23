@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #222222;
+  height: 100vh;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
