@@ -3,10 +3,58 @@
   flex-direction: column;
   background-color: #222222;
   height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
-.Container {
+.Main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  color : white;
+}
+
+.Button_area {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Favorites{
   display: flex;
   flex-direction: row;
   width: 100%;
+  align-items: center;
+}
+
+.Recents{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.h20{
+  font-size: 20px;
+  color : white;
+  width : 70px;
+  padding: 30px 30px 30px 50px;
+  margin: 0px;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 50px; 
+  background-color: white; 
+}
+
+@media screen and (max-width: 700px){
+  .Main{
+    width: 100%;
+  }
 }

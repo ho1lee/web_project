@@ -26,17 +26,22 @@ function App() {
 
         </Headers>
       </div> */}
-      <div className = "Container">
-        <Button title = 'Apps'></Button>
-        <Button title = 'Dashboard'></Button>
-      </div>
-      {/*즐겨찾기*/}
-      <div className = "Container">
-        <p>Favorites</p>
-      </div>
-      {/*최근 사용*/}
-      <div className = "Container">
-        <p>Recents</p>
+      <div className = "Main">
+        <div className = "Button_area">
+          <Button title = 'Apps'></Button>
+          <Button title = 'Dashboard'></Button>
+        </div>
+        {/*Favorites apps*/}
+        <div className = "Favorites">
+          <p className='h20'>Favorites</p>
+          <div className="vertical-line"></div>
+        </div>
+        {/*Recently used apps*/}
+        <div className = "Recents">
+          <p className='h20'>Recents</p>
+          <div className="vertical-line"></div>
+        </div>
+
       </div>
     </div>
   );
